@@ -1,12 +1,14 @@
-# Protractor_example
+# Description
+Example project using Protractor with Cucumber and Page Objects.
 
- Protractor example project which contains tests to get familiar with this end-to-end test framework.
- 
+Some basic automated tests were created on the example of Ecommerce Angular app. Additional librares that were used:
+- Chai assertions library
+- Html-reporter designed for cucumber
  
 # Test Scenarios
+Currntly Project consists of 3 test cases with 11 execution steps.
 
-...
-
+First Test Scenario is related to form on landing page.
+Second Test Scenario concerns shopping cart.
 # Aimed Angular App
-
-http://www.way2automation.com/protractor-angularjs-practice-website.html
+https://qaclickacademy.github.io/protocommerce/
