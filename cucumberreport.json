@@ -1,0 +1,264 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "User visits ProtoCommerce site where he sumbits a form",
+    "line": 1,
+    "id": "user-visits-protocommerce-site-where-he-sumbits-a-form",
+    "tags": [],
+    "uri": "features\\Proto.feature",
+    "elements": [
+      {
+        "id": "user-visits-protocommerce-site-where-he-sumbits-a-form;submitting-a-form-correctly",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Submitting a form correctly",
+        "tags": [
+          {
+            "name": "@SumbitForm",
+            "line": 3
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "e2e\\hooks.ts:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1133000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "User navigates to ProtoCommerce",
+            "match": {
+              "location": "e2e\\steps.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1625000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "User fills name with \"Tester\", email with \"test@o2.pl\", password with \"1234567890\"",
+            "match": {
+              "location": "e2e\\steps.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 523000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "Selects \"Male\" gender option employment \"Student\" and \"10/10/1992\"",
+            "match": {
+              "location": "e2e\\steps.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 307000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "the output displayed should be \"Success!\"",
+            "match": {
+              "location": "e2e\\steps.ts:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 188000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "user-visits-protocommerce-site-where-he-sumbits-a-form;submitting-a-form-correctly",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "Submitting a form correctly",
+        "tags": [
+          {
+            "name": "@SumbitForm",
+            "line": 3
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "e2e\\hooks.ts:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "User navigates to ProtoCommerce",
+            "match": {
+              "location": "e2e\\steps.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 414000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "User fills name with \"Ta\", email with \"test@gmail.com\", password with \"0000\"",
+            "match": {
+              "location": "e2e\\steps.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 437000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "Selects \"Female\" gender option employment \"Employed\" and \"15/01/1827\"",
+            "match": {
+              "location": "e2e\\steps.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 294000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "the output displayed should be \"Success!\"",
+            "match": {
+              "location": "e2e\\steps.ts:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 132000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:26"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      },
+      {
+        "id": "user-visits-protocommerce-site-where-he-sumbits-a-form;validating-a-name-and-email-fields",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "Validating a name and email fields",
+        "tags": [
+          {
+            "name": "@SumbitForm",
+            "line": 16
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "e2e\\hooks.ts:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 19,
+            "name": "User navigates to ProtoCommerce",
+            "match": {
+              "location": "e2e\\steps.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 396000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "User leaves blank name and email fields",
+            "match": {
+              "location": "e2e\\steps.ts:47"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 285000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "the validation messages should be displayed",
+            "match": {
+              "location": "e2e\\steps.ts:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 68000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:26"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
