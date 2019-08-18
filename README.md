@@ -6,7 +6,7 @@ Some basic automated tests were created on the example of Ecommerce Angular app.
 - Html-reporter designed for cucumber
  
 # Test Scenarios
-Currntly Project consists of 3 test cases with 11 execution steps.
+Currently Project consists of 3 test cases with 11 execution steps.
 
 First Test Scenario is related to form on landing page.
 <br>
