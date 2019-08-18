@@ -9,6 +9,8 @@ Some basic automated tests were created on the example of Ecommerce Angular app.
 Currntly Project consists of 3 test cases with 11 execution steps.
 
 First Test Scenario is related to form on landing page.
-Second Test Scenario concerns shopping cart.
+<br>
+Second Test Scenario concerns to shopping cart.
+<br>
 # Aimed Angular App
 https://qaclickacademy.github.io/protocommerce/
